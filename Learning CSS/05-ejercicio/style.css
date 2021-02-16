@@ -8,9 +8,9 @@ Ejercicio completo con HTML y CSS
    su ancho será de 1200px y estar centrado
 (Hecho)4. Header debe ocupar el 100% del ancho y tener un texto grande centrado
 (Hecho)5.Menu debe tener los elementos uno al lado del otro
-6. El contenido principal debe tener un ancho del 70%
-7. El contenido dentro del contenedor principal debe ser una cuadricula con 4 lineas de 2 cajas
-8.La barra lateraldebe tener un ancho del 30%
+(Hecho)6. El contenido principal debe tener un ancho del 70%
+(Hecho)7. El contenido dentro del contenedor principal debe ser una cuadricula con 4 lineas de 2 cajas
+(Hecho)8.La barra lateraldebe tener un ancho del 30%
 9. El Footer debe tener un ancho del 100% del div que lo contiene y estar abajo del todo
 */
 
@@ -70,4 +70,49 @@ Ejercicio completo con HTML y CSS
 
 #menu ul li:hover a{
     color: white
+}
+
+
+#contenido {
+    width:  69%;
+    
+    float: left;
+}
+
+#lateral{
+    width: 30%;
+    border: 1px solid red;
+    float: left;
+    min-height: 500px;
+    text-align: center;
+}
+
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 5px solid blue;
+    color: white;
+    float: left;
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#contenido h1{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+
+
+footer{
+    
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    color: #444;
+    height: 55px;
+    line-height: 55px;
+    border-top:  1px solid #ccc;
 }
