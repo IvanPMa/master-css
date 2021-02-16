@@ -8,18 +8,27 @@
     <body>
         <h1>Cajas en CSS</h1>
 
-        <div id="caja1">
-            <p>
-                Contenido de la caja 1
-            </p>
-        </div>
+        <!-- elementos flotados -->
+        <section  id="cajas">
+            <div class="caja">
+                <p>
+                    Contenido de la caja 1
+                </p>
+            </div>
+            <div class="caja">
+                <p>
+                    Contenido de la caja 2
+                </p>
+            </div>
+        </section>
 
-        <div id="caja2">
-            <p>
-                Contenido de la caja 2
-            </p>
+        <!-- LIMPIAR FLOTADOS -->
 
-        </div>
+        <div class="clearfix"></div>
+        <!-- ELEMENTOS NO FLOTADOS QUE SE MANTENGAN ABAJO -->
+        <h2|>Contenido despues de las cajas posicionadas</h2>
+        <p>Texto de prueba</p>
+        
         
     </body>
 </html>
