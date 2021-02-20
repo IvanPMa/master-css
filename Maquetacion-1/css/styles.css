@@ -229,6 +229,12 @@ button:active{
     font-size: 14px;
     font-family: sans-serif,Arial,Helvetica;
 }
+.red{
+    color:#9b242e !important;
+}
+.blue{
+    color:#0c73f2 !important;
+}
 
 #aside .widget{
     display: block;
