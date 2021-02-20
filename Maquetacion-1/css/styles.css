@@ -265,6 +265,10 @@ button:active{
     margin-right: 5px;
     margin-top: -2px;
 }
+.clearfix{
+    float: none;
+    clear: both;
+}
 
 #aside .widget{
     display: block;
@@ -380,3 +384,5 @@ button:active{
 #sections .stickerTwo{
     margin-left: 862px;
 }
+
+
