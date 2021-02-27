@@ -134,14 +134,17 @@ body{
 /* TARJETAS */
 .card {
     float: left;
-    width: 204px;
+    width: 205px;
     height: 305px;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 2px #ddd;
     background-color: white;
     overflow: hidden;
-    margin: 21px;
+    margin: 22px;
     margin-top: 40px;
     cursor: pointer;
 }
 
+.card:last-child{
+    margin-right: 0px;
+}
