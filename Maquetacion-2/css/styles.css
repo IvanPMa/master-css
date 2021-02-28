@@ -415,3 +415,17 @@ body{
     margin-bottom: 10px;
     font-size: 15px;
 }
+#blog{
+    height: 100px;
+    margin-top: 50px;
+    line-height: 100px;
+    text-align: center;
+}
+#blog a{
+    display: block;
+    font-family: "BebasNeue";
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #00538c;
+}
