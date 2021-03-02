@@ -189,4 +189,17 @@
     #lateral #boton-buscar{
         width: 5%;
     }
+
+    #footer {
+        height: auto;
+        padding-bottom: 120px;
+    }
+    #footer .wrap > div{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    #footer h5{
+        font-size: 25px;
+    }
 }
