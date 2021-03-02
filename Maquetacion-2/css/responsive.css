@@ -133,18 +133,12 @@
         display: none;
     }
     #lateral input[type="text"] {
-        width: 75%;
+        width: 70%;
     }
-    #lateral input[type="button"],
-     #lateral input[type="submit"]{
-         width: 15%;
-     }
+    
 
 }
 
-@media(max-width: 808px){
-
-}
 
 @media(max-width: 724px){
     #header{
@@ -167,15 +161,32 @@
 }
 
 @media (max-width: 660px){
+
+    #banner{
+        font-size: 25px        
+    }
+    
     #lateral{
         float: none;
         width: 100%;
         margin: 0 auto;
         min-height: auto;
+        margin-top: 20px;
     }
     #articles{
         float:none;
         width: 100%;
         margin: 0 auto; 
+        min-height: 0px auto;
+    }
+    #lateral input[type="text"] {
+        width: 92%;
+    }
+    
+    #login input[type="email"], #login input[type="password"] {
+        width: 90%;
+    }
+    #lateral #boton-buscar{
+        width: 5%;
     }
 }
