@@ -132,6 +132,18 @@
     .card .description{
         display: none;
     }
+    #lateral input[type="text"] {
+        width: 75%;
+    }
+    #lateral input[type="button"],
+     #lateral input[type="submit"]{
+         width: 15%;
+     }
+
+}
+
+@media(max-width: 808px){
+
 }
 
 @media(max-width: 724px){
@@ -150,5 +162,20 @@
         float: none;
         width: 200px;
         margin: 0px auto;
+    }
+    
+}
+
+@media (max-width: 660px){
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        min-height: auto;
+    }
+    #articles{
+        float:none;
+        width: 100%;
+        margin: 0 auto; 
     }
 }
