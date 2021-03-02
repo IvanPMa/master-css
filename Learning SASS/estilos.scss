@@ -1,3 +1,4 @@
+// sass --watch nombre.scss hojacss.css
 $fuente-tipica: sans-serif, Helvetica, Arial;
 $color-fondo: #ccc;
 $color-letra: red;
@@ -15,4 +16,28 @@ h1{
 p{
     color: $color-secundario;
 }
-// sass --watch nombre.scss hojacss.css
+.caja{
+
+    border: 1px solid black;
+    width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    h1{
+        color: blue;
+    }
+
+    p{
+        color:green;
+    }
+
+    .info{
+        font-size: 10px;
+
+        .author{
+            font-size: 15px;
+            color: orange;
+        }
+    }
+}
