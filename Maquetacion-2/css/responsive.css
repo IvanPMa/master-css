@@ -30,8 +30,11 @@
         width: 25%;
         margin: 4%;
     }
+    #footer img{
+        width: 100%;
+    }
     #footer #browsers img{
-        width: 15%;
+        width: 14%;
     }
     #footer h5{
         font-size: 30px;
@@ -55,6 +58,10 @@
 @media(max-width: 970px){
     #articles{
         width: 59%;
+    }
+    #footer .wrap > div {
+        width: 26%;
+        margin: 20px;
     }
 
     #footer h5{
