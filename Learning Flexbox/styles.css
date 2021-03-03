@@ -39,6 +39,8 @@ body{
     background-color: green;
 }
 .blue{
+    flex-grow: 0;
+    flex-shrink: 0;
     /* order: 2; */
     background-color: blue;
 }
