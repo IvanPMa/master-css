@@ -15,6 +15,10 @@ body{
 }
 
 .caja{
+    flex-grow: 1;
+
+
+
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -25,18 +29,21 @@ body{
     background-color: gray;
 }
 .red{
-    order: 3;
+    flex-grow: 25;
+    /* order: 3; */
     background-color: red;
 }
 .green{
-    order: 1;
+    flex-grow: 7;
+    /* order: 1; */
     background-color: green;
 }
 .blue{
-    order: 2;
+    /* order: 2; */
     background-color: blue;
 }
 .orange{
-    order: 4;
+    flex-grow: 7;
+    /* order: 4; */
     background-color: orange;
 }
