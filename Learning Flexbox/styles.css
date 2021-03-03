@@ -11,17 +11,15 @@ body{
     flex-flow: row wrap;
     justify-content: space-evenly;
 
-
+    height: 500px;
+    align-items: flex-start;
     /* display: inline-flex; */
     border: 3px solid black ;
     padding: 5px;
 }
 
 .caja{
-
-
-
-    /* flex-grow: 1; */
+    flex-grow: 1;
     /* flex-basis: calc((100%/3) - 68px ); */
     font-size: 20px;
     font-weight: bold;
@@ -33,22 +31,27 @@ body{
     background-color: gray;
 }
 .red{
+    align-self: flex-start;
     /* flex-grow: 25; */
     /* order: 3; */
     background-color: var(--rojo);
 }
 .green{
+    /* margin-top: 10%; */
+    align-self: center;
     /* flex-grow: 7; */
     /* order: 1; */
     background-color: green;
 }
 .blue{
+    align-self: center;
     /* flex-grow: 0; */
     flex-shrink: 0;
     /* order: 2; */
     background-color: blue;
 }
 .orange{
+    align-self: flex-end;
     /* flex-basis: 100%; */
     /* flex-grow: 7; */
     /* order: 4; */
