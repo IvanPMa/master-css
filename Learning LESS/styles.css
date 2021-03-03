@@ -4,3 +4,7 @@ body {
 h1 {
   font-family: Arial;
 }
+.informacion ul a {
+  color: green;
+  font-size: 18px;
+}
