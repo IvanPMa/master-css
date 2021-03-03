@@ -51,3 +51,12 @@ h1{
     .textoNegro(blanco);
 }
 //Bucles
+.loop(@cont) when (@cont > 0){
+    .loop(@cont -1);
+    height: (900px/@cont);
+}
+
+.informacion{
+    height: 900px;
+    .loop(5);
+}
