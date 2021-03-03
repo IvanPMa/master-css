@@ -35,3 +35,19 @@ h1{
 .informacion{
     .sombras(5px);
 }
+
+//Operadores
+h1{
+    font-size: 30px + 7px;
+}
+
+// Mixins condicionales
+.textoNegro (@value) when (@value=negro){
+    color: black;
+}
+
+h1{
+    color: blue; 
+    .textoNegro(blanco);
+}
+//Bucles
