@@ -8,3 +8,7 @@ h1 {
   color: green;
   font-size: 18px;
 }
+.informacion {
+  box-shadow: 0px 0px 5px gray;
+  text-shadow: 0px 0px 5px gray;
+}
