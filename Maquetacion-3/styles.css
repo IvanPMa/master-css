@@ -72,3 +72,18 @@
     background: #ccc;
     color: white;
 }
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#projects{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 80%;
+    margin-right: 20px;
+}
