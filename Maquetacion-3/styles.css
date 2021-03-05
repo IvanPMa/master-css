@@ -154,5 +154,6 @@
 }
 
 #aside a:hover{
-    background-color: #eee;
+    background-color: #444;
+    color: #eee;
 }
