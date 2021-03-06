@@ -192,6 +192,8 @@
 }
 
 
-@media{
-    
+@media (max-width: 1340px){
+    body{
+        background-color: red;
+    }
 }
