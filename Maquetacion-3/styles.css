@@ -253,3 +253,9 @@
     }
 
 }
+
+@media (max-width: 421px){
+    #header{
+        padding-bottom: 56px;
+    }
+}
