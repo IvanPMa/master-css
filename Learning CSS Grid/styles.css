@@ -4,11 +4,13 @@ body{
 }
 .layout{
     width: 1200px;
+    height: 400px;
     margin: 0 auto;
     /* Definir el grid layput */
     display: grid;
 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr) 3fr;
     /* grid-template-columns: repeat(2, calc(25% - 10px)) 15% 35%; */
     /* Espacio entre elementos grid */
     grid-gap: 10px;
@@ -36,4 +38,10 @@ body{
 }
 .layout .pink{
     background-color: palevioletred;
+}
+.layout .orange{
+    background-color: orange;
+}
+.layout .lightblue{
+    background-color: lightblue;
 }
