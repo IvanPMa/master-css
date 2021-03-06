@@ -193,7 +193,8 @@
 
 
 @media (max-width: 1340px){
-    body{
-        background-color: red;
+    #menu ul{
+        align-items: flex-start;
+        justify-content: space-evenly;
     }
 }
