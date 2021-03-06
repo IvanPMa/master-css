@@ -205,5 +205,13 @@
 }
 
 @media (max-width: 603px){
+    #footer .info {
+        flex-grow: 1;
+        ORDER: 2;
+        margin-left: 20px;
+        flex-basis: 100%;
+        text-align: center;
 
+
+    }
 }
