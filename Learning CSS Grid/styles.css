@@ -17,6 +17,12 @@ body{
 }
 
 #cabecera{
+    /* Centrar contenido */
+    display: flex;
+    justify-content: center;
+
+    
+    align-items: center;
     grid-column: 1 / 6;
     background-color: blue;
     color: white;
