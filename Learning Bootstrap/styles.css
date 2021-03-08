@@ -20,3 +20,11 @@ footer{
     line-height: 50px;
     text-align: center;
 }
+
+.lateral{
+    height: 250px;
+}
+
+.lateral > div{
+    height: 150px;
+}
