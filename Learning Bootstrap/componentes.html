@@ -178,16 +178,36 @@
           </div>
         </div>
 
-        <!-- COLLAPSE -->
-      <a class="btn btn-success mt-3" data-toggle="collapse" href="#informacion" role="button">
-        Mostrar inforamcion 
-      </a>
+          <!-- COLLAPSE -->
+        <a class="btn btn-success mt-3" data-toggle="collapse" href="#informacion" role="button">
+          Mostrar inforamcion 
+        </a>
 
-      <div class="collapse" id="informacion">
-        <div class="card card-body bg-dark text-white mt-2">
-          Esta es la inforamcion oculta
+        <div class="collapse" id="informacion">
+          <div class="card card-body bg-dark text-white mt-2">
+            Esta es la inforamcion oculta
+          </div>
+        </div>
+
+        <!-- BARRA DE PROGRESO -->
+      <div class="progress mt-5">
+        <div id="barra-progreso" class="progress-bar bg-success" role="progressbar">
+          
         </div>
       </div>
+
+      <script>
+        var contador = 0;
+        setInterval(function(){
+          // alert(contador);
+          if(contador < 100){
+            contador++;
+            var barra = document.querySelector("#barra-progreso");
+            barra.style.width = contador +'%';
+            barra.innerHTML = contador + '%';
+          }
+        }, 1000);
+      </script>
 
       </div>
 
@@ -290,7 +310,7 @@
     <script>
       $(document).ready(function () {
         $(".carousel").carousel({
-          interval: 3000
+          interval: 1500
         });
       });
     </script>
