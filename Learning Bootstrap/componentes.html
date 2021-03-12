@@ -209,6 +209,16 @@
         }, 1000);
       </script>
 
+      <button type="button" class="btn-tool btn btn-danger mt-3" data-placement="bottom" title="Si das click sacaras una alerta">
+        Alerta
+      </button>
+      <button type="button" class="btn-tool btn btn-warning mt-3" data-placement="right" title="Si das click sacaras una alerta">
+        Alerta 2
+      </button>
+      <button type="button" class="btn-tool btn btn-info mt-3" data-placement="top" title="Si das click sacaras una alerta">
+        Alerta 3
+      </button>
+
       </div>
 
       
@@ -306,12 +316,16 @@
     </div>
 
     <script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
     <script>
       $(document).ready(function () {
         $(".carousel").carousel({
           interval: 1500
         });
+
+        $(".btn-tool").tooltip();
       });
     </script>
 </body>
